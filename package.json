@@ -2,7 +2,8 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://turtle85917.github.io/portfolio/",
+  "homepage": "https://turtle85917.github.io/portfolio/index.html",
+  "hompage": "https://turtle85917.github.io/portfolio/index.html",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
