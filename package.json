@@ -2,8 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://turtle85917.github.io/portfolio/index.html",
-  "hompage": "https://turtle85917.github.io/portfolio/index.html",
+  "homepage": "https://turtle85917.github.io/portfolio",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -20,7 +19,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "postbuild": "cp build/index.html build/404.html",
   },
   "eslintConfig": {
     "extends": [
