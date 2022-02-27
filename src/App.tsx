@@ -7,7 +7,7 @@ import NotFound from './components/404';
 function App() {
     return (
         <Router>
-            <Route exact path="/" component={Main} />
+            <Route exact path="/portfolio" component={Main} />
             <Route component={NotFound} />
         </Router>
     );
